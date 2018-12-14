@@ -140,9 +140,4 @@ $options = weglot_get_options();
 				</tr>
 		  </tbody>
 	 </table>
-	 <br />
-	<div class="widefat">
-		<h2><?php esc_html_e( 'Custom URLS', 'weglot'); ?></h2>
-		<?php var_export($options['custom_urls']); ?>
-	</div>
 </div>
